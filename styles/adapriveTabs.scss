@@ -1,0 +1,41 @@
+@import 'vars';
+
+
+// FOR TABS DEVICES  option № 1
+
+@media only screen and (min-width: 768px) and (max-width: 910px) {
+
+    header {
+        position: relative;
+
+        nav {
+            font-size: 100%;
+            display: grid;
+            grid-template-columns: 1fr;
+            text-align: center;
+        }
+    }
+
+    .last-news {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 15%;
+    }
+}
+
+
+
+// FOR TABS DEVICES  option № 2
+
+@media only screen and (min-width: 911px) and (max-width: 1279px) {
+
+    header {
+
+        nav {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            font-size: 100%;
+            text-align: center;
+        }
+    }
+}

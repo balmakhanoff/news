@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    max-width: 1280px;
+    margin: 0 auto;
+    background-image: url("../images/body-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+// ПЕРЕМЕННЫЕ
+@import 'vars';
+
+// БЛОКИ САЙТА
+@import 'header';
+@import 'main';
+@import 'news';
+@import 'footer';
+
+// АДАПТИВНАЯ ВЕРСТКА
+@import 'adaptiveMobile';
+@import 'adapriveTabs';

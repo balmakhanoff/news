@@ -1,0 +1,47 @@
+.last-news {
+  background-image: url("../images/news-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  padding: 50px;
+  display: flex;
+  gap: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  flex-wrap: wrap;
+}
+.last-news div {
+  padding: 15px;
+  background-color: rgba(225, 223, 176, 0.3);
+  border-radius: 8px;
+  font-family: "Kurale", serif;
+}
+.last-news div h3 {
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+  background-color: rgba(225, 223, 176, 0.6);
+  border-radius: 8px;
+}
+.last-news div figure {
+  padding: 10px;
+}
+.last-news div img {
+  border-radius: 8px;
+}
+.last-news div p {
+  padding: 10px;
+  background-color: rgba(225, 223, 176, 0.6);
+  border-radius: 8px;
+  text-align: justify;
+}
+.last-news div:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.last-news div:hover h3,
+.last-news div:hover p {
+  background-color: rgb(0, 0, 0);
+}/*# sourceMappingURL=news.css.map */

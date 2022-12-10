@@ -1,0 +1,26 @@
+@import 'vars';
+
+.main {
+    background-image: url("../images/main-bg.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: $borderLittleRadius;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 50px;
+
+    h1 {
+        font-size: $fontSizeLarge;
+        color: $whiteColor;
+        text-shadow: $textShadow;
+        background-color: $transparantColor;
+        padding: 30px;
+        text-transform: uppercase;
+        text-align: center;
+        font-family: 'Kurale', serif;
+    }
+}
